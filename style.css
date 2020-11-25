@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background: linear-gradient(#ff5900 0%, #ffb300 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+h1 {
+    text-shadow: 2px 2px #73ff00;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px
+}
+
+.menu{
+font-family: 'Goldman', cursive;
+position: fixed;
+z-index: 10;
+top: 0px;
+background:white; 
+width: 100%;
+margin-top: 0px;
+}
+
+#myname {
+    font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px stolid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+
+.list {
+    text-align: center;
+    
+}
+
+.links{
+    color: white;
+padding-left: 30px;
+padding-right: 30px;
+font-family: fantasy;
+font-size: 20px;
+display: inline;
+background-color: black;
+}
+
+.links:hover{
+font-size:25px;
+text-decoration: underline;
+}
+
+#contact{
+background: firebrick;
+}
+
+.contact_1 a{
+color: azure;
+text-shadow: none;
+}
+
+.contact_1 h3 {
+display: inline;
+}
